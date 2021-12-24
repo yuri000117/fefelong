@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fefelong-Fastfashion</title>
+  <link rel="stylesheet" href="./2.css">
+</head>
+<body>
+  <header>
+     <nav>
+       <a href="./index.html" class="mainlogo"><img src="./image/Fefe-long.png" alt="logo"></a>
+       <ul>
+         <li><a href="javascript:()" onclick="showpopup();">subscribe</a></li>
+         <li><a href="./3.html">Slow Fashion</a></li>
+         <li><a href="./2.html">Fast Fashion</a></li>
+       </ul>
+     </nav>
+  </header>  
+  <section>
+     <div class="intro">
+       <div class="intro_section">
+         <img src="./image/2페이지인트로.png" alt="main.2">
+       </div>
+     </div> 
+
+     <div class="section01_title">
+       <img src="./image/2페이지 서브 타이포.png" alt="subtypo">
+     </div>
+     <div class="wrapper01">
+      <img src="./image/그래프1.png" alt="그래프1">
+      <div class="graph01">
+        <p class="그래프1 설명">코로나의 여파로 인한 비대면 시대의 도래와<br>온라인 쇼핑 시장의 지속적인 성장</p>
+      </div>
+     </div>
+   
+     <div class="wrapper02"> 
+       <div class="gragh02">
+        <p class="그래프2 설명">국내 일정 평균 의류 폐기물량이<br>2014년에 비해 2018년 32% 가량 증가</p>
+       </div>
+       <img src="./image/그래프2.png" alt="그래프2">
+     </div>
+   
+     <div class="wrapper03">
+       <img src="./image/그래프3.png" alt="그래프3">
+       <div class="graph03">
+        <p class="그래프3 설명">의류 산업에 사용한 섬유의<br>약 87%가 소각되거나 매립시에 폐기됨</p>
+       </div>
+     </div>
+  
+     <div class="wrapper04">
+       <div class="graph04">
+        <p class="그래프4 설명">패션산업이 전세계 폐수 배출량의 20%<br>탄소배출량의 10%를 차지</p>
+       </div>
+       <img src="./image/그래프4.png" alt="그래프4">
+     </div>
+   
+    <div class="wrapper11">
+      <div class="section03">
+        <img src="./image/세탁기.png" alt="세탁기">
+        <div class="using">
+          <img src="./image/사용과정.png" alt="사용과정">
+          <p class="사용과정설명">폴리에스터 섬유를 주로 사용하는 패스트패션은<br>세탁시에도 문제가 된다. 세탁할 때 나오는 플라스틱<br>
+           미세 섬유 조각이 바다로 흘러가며 이 조각들은<br>계속 축적되어 해양을 오염시키고 있다.</p>
+        </div>
+      </div>
+   
+      <div class="section04">
+        <img src="./image/빨래.png" alt="빨래">
+        <div class="trash">
+          <img src="./image/폐기과정.png" alt="폐기과정">
+          <p class="폐기과정설명">의류 폐기과정에서 폐섬유와 폐피혁은 재활용이<br>불가능하여 소각 처리만이 유일한 해결책이다.<br>
+           이런 소각 과정에서 발암물질인 휘발성 유기화합물이<br>나와 끊임없이 환경오염을 시키고있다.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    Made by Yuri Lee from Web Media Design Class, 2021
+  </footer>
+
+  <!-- begin popup -->
+
+<div class="popup" id="popup">
+  <div class="blanket"></div>
+  <div class="content">
+    <h2>Fefelong의 웹매거진을 구독해보세요.</h2>
+    <form action="">
+      <div class="row">
+        <div class="item">
+          <input type="text" placeholder="name">
+        </div>
+        <div class="item">
+          <input type="text" placeholder="e-mail">
+        </div>
+      </div>
+      <button class="signup" onclick="hidepopup();">subscribe</button>
+      <button class="close" onclick="hidepopup();"></button>
+    </form>
+  </div>
+</div>
+
+<script src="./script.js" type="text/javascript"></script>
+</body>
+</html>

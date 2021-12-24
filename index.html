@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./main.css">
+  <title>fefelong</title>
+</head>
+<body>
+   <header>
+     <nav>
+       <a href="./index.html" class="mainlogo"><img src="./image/Fefe-long.png" alt="logo"></a>
+       <ul>
+         <li><a href="javascript:()" onclick="showpopup();">subscribe</a></li>
+         <li><a href="./3.html">Slow Fashion</a></li>
+         <li><a href="./2.html">Fast Fashion</a></li>
+       </ul>
+     </nav>
+   </header>
+   <section>
+     <div class="intro">
+       <div class="intro_section01">
+         <img src="./image/인트로1.png" alt="intro">
+       </div>
+     </div>
+     <div class="intro_section02">
+         <h4 class="sub_title">패스트패션에 대해 더 알아볼까요?</h4>
+     </div>
+     <div class="title_img">
+       <img src="./image/패스트패션이란_.png" alt="what">
+      </div>
+    <div class="wrapper01">
+        <img class="section_image2" src="./image/새옷.png" alt="new clothes">
+      <div class="new_clothes">
+        <p class="dsc1">최신 트랜드를 즉각 반영하여<br>빠르게 제작, 유통시키는<br>의류를 뜻합니다</p>
+        <p class="dsc2">이러한 패스트 패션은<br>제작부터 폐기까지 전 과정에 걸쳐<br>지구의 환경을 위협합니다</p>
+      </div>
+    </div>
+     <div class="v_section01_bo">
+      <img src="./image/tag.png" alt="v_section_typo">
+      <a class="cta" href="./2.html">더보기</a>
+     </div>
+
+     <div class="wrapper02">
+       <div class="pollution01">
+         <img src="./image/대기오염.png" alt="airpollute">
+         <p class="dsc">옷을 제조하고 폐기 하는데 배출되는 연간 120억 이상의<br>
+          탄소배출량은 전세계 탄소 배출량의 10%에 이르고 있어<br>
+          대기오염에 심각한 영향을 끼치고 있습니다</p>
+       </div>
+       <div class="pollute">
+        <img src="./image/오염.png" alt="pollute">
+       </div>
+       <div class="pollution02">
+         <img src="./image/수질오염.png" alt="waterpollute">
+         <p class="dsc">티셔츠 한 장 만드는데 2700L의 물이 필요합니다<br>
+          패스트 패션의 수질오염은 전 세계 공업용수오염의 20%를 차지하며<br>
+          생수병 500억개 수준과 동일한 50만톤의 플라스틱을 매년 배출합니다</p>
+       </div>
+     </div>
+     <div class="wrapper03">
+       <img src="./image/Fefe-long.png" alt="logo">
+       <div class="join">
+         <p class="dsc">fefe-long’은 ‘fast fashion to long’의 줄임말로<br>
+          옷 착용의 짧은 주기의 변화를 길게 변화시키자는 의미를 담고 있습니다.<br>
+          저희는 ‘fast fashion’에 대한 정보를 사이트에 게재해,<br>
+          슬로우 패션으로 세상의 작은 변화의 바람을 일으키고자 합니다.</p>
+          <a class="cta" href="./3.html">동참하기</a>
+       <img src="./image/동참.png" alt="join_in">   
+       </div>
+     </div>
+   </section>
+<footer>
+  Made by Yuri Lee from Web Media Design Class, 2021
+</footer>
+
+<!-- begin popup -->
+
+<div class="popup" id="popup">
+  <div class="blanket"></div>
+  <div class="content">
+    <h2>Fefelong의 웹매거진을 구독해보세요.</h2>
+    <form action="">
+      <div class="row">
+        <div class="item">
+          <input type="text" placeholder="name">
+        </div>
+        <div class="item">
+          <input type="text" placeholder="e-mail">
+        </div>
+      </div>
+      <button class="signup" onclick="hidepopup();">subscribe</button>
+      <button class="close" onclick="hidepopup();"></button>
+    </form>
+  </div>
+</div>
+
+<script src="./script.js" type="text/javascript"></script>
+</body>
+</html>
